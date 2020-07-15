@@ -6,7 +6,7 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-ALIVE_STCR = "https://telegra.ph/Friday-Is-Online-07-15"
+ALIVE_STCR = "CgACAgEAAxkBAAEFY39fDpvDdgtjpN1dQVkwtsS-mIuW8gACsAIAAkjQcUSqr6K3-Sip-xoE"
 pm_caption = "`FRIDAY IS:` **ONLINE**\n\n"
 
 pm_caption += "**SYSTEM STATUS**\n"
