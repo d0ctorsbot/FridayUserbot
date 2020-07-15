@@ -30,7 +30,8 @@ pm_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
 async def amireallyalive(alive):
     chat = await alive.get_chat()
     await alive.delete()
-    """ For .alive command, check if the bot is running.  """
-    await borg.send_file(alive.chat_id, ALIVE_STCR,caption=pm_caption)
-    await alive.delete() 
+""" For .alive command, check if the bot is running.  """
+
+    await borg.send_sticker(chat, ALIVE_STCR)
+    await borg.send_message(chat, FRIDAY_ALIVE) 
     
